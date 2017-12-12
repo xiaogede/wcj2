@@ -155,7 +155,19 @@ body {
     bottom:20%;
     left: 5%;
 }
-/*第三屏结束*/
+.swiper-slide.three .text2-one p{
+    color: lightgoldenrodyellow;
+    margin-top: 40%;
+}
+.swiper-slide.three .text2-two p{
+    color: lightgoldenrodyellow;
+    margin-top: 30%;
+}
+.swiper-slide.three .text2-three p{
+    color: lightgoldenrodyellow;
+    margin-top: 40%;
+}
+    /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four .top{
     width: 40%;
@@ -212,7 +224,8 @@ body {
     border: 5px solid lemonchiffon;
     position: absolute;
     top:34%;
-    left: 10%;
+    left: 5%;
+    overflow: hidden;
 }
 .swiper-slide.Fives .images{
     width: 40%;
@@ -220,7 +233,38 @@ body {
     border: 5px solid lemonchiffon;
     position: absolute;
     bottom:10%;
-    left: 10%;
+    left: 5%;
+    overflow: hidden;
+}
+.swiper-slide.Fives .image img{
+    width: 100%;
+
+}
+.swiper-slide.Fives .images img{
+    width: 100%;
+
+}
+.swiper-slide.Fives .p1{
+    width: 43%;
+    position: absolute;
+    top:32%;
+    right:5%;
+    color: lightgoldenrodyellow;
+    text-indent:35px;
+    font-size: 5vw;
+    margin-top: 20px;
+
+}
+.swiper-slide.Fives .p2{
+    width: 43%;
+    position: absolute;
+    top:60%;
+    right:5%;
+    color: lightgoldenrodyellow;
+    text-indent:35px;
+    font-size: 5vw;
+    margin-top: 20px;
+
 }
 /*第五屏结束*/
 /*第六屏开始*/
