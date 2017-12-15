@@ -35,6 +35,11 @@ body {
     /*-webkit-align-items: center;*/
     /*align-items: center;*/
 }
+/*动画开始*/
+.img{
+    width: 100%;
+    height: 100%;
+}
 /*音乐开始*/
 #mss{
     width: 60px;
@@ -109,7 +114,14 @@ body {
 .swiper-slide.two .text p{
     color: lightyellow;
     text-indent:35px;
-    font-size: 16px;
+    font-size: 5vw;
+}
+.swiper-slide.two .p3{
+    color: lightyellow;
+    font-size: 5vw;
+    position: absolute;
+    bottom: 15%;
+    right:10%;
 }
 /*第二屏结束*/
 /*第三屏开始*/
@@ -129,31 +141,34 @@ body {
     color: lightyellow;
 }
 .swiper-slide.three .text2-one{
-    width: 40%;
-    height: 22%;
+    width: 42%;
+    height: 24%;
     border: 3px solid lemonchiffon;
     border-radius:50%;
     position: absolute;
     top:35%;
     left: 30%;
+    font-size: 5vw;
 }
 .swiper-slide.three .text2-two{
-    width: 40%;
-    height: 22%;
+    width: 42%;
+    height: 24%;
     border: 3px solid lemonchiffon;
     border-radius:50%;
     position: absolute;
     bottom:20%;
     right: 5%;
+    font-size: 5vw;
 }
 .swiper-slide.three .text2-three{
-    width: 40%;
-    height: 22%;
+    width: 42%;
+    height: 24%;
     border: 3px solid lemonchiffon;
     border-radius:50%;
     position: absolute;
     bottom:20%;
     left: 5%;
+    font-size: 5vw;
 }
 .swiper-slide.three .text2-one p{
     color: lightgoldenrodyellow;
@@ -167,6 +182,7 @@ body {
     color: lightgoldenrodyellow;
     margin-top: 40%;
 }
+
     /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.four .top{
