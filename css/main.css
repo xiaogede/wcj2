@@ -202,10 +202,10 @@ body {
 }
 .swiper-slide.four .text{
     width: 80%;
-    height: 45%;
+    height: 50%;
     position:absolute;
     bottom:20%;
-    left:5%;
+    left:10%;
 }
 .swiper-slide.four .text p{
     color: lightyellow;
